@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.project_3.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioGroup
+                android:id="@+id/questionOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/questionTheme"
+                    android:text="@string/question1"/>
+                <RadioButton
+                    android:text="@string/q1v1"
+                    style="@style/radioTheme" />
+                <RadioButton
+                    android:text="@string/q1v2"
+                    style="@style/radioTheme" />
+                <RadioButton
+                    android:text="@string/q1v3"
+                    style="@style/radioTheme" />
+                <RadioButton
+                    android:text="@string/q1v4"
+                    style="@style/radioTheme" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/questionTheme"
+                android:text="@string/question2" />
+            <EditText
+                android:id="@+id/questionTwo"
+                style="@style/editTextTheme" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/questionThree"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/questionTheme"
+                android:text="@string/question3"/>
+
+            <CheckBox
+                android:id="@+id/value1"
+                android:text="@string/q3v1"
+                style="@style/checkboxTheme" />
+
+            <CheckBox
+                android:id="@+id/value2"
+                android:text="@string/q3v2"
+                style="@style/checkboxTheme" />
+
+            <CheckBox
+                android:id="@+id/value3"
+                android:text="@string/q3v3"
+                style="@style/checkboxTheme" />
+
+            <CheckBox
+                android:id="@+id/value4"
+                android:text="@string/q3v4"
+                style="@style/checkboxTheme" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioGroup
+                android:id="@+id/questionFour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/questionTheme"
+                    android:text="@string/question4"/>
+                <RadioButton
+                    android:text="@string/q4v1"
+                    style="@style/radioTheme" />
+                <RadioButton
+                    android:text="@string/q4v2"
+                    style="@style/radioTheme" />
+                <RadioButton
+                    android:text="@string/q4v3"
+                    style="@style/radioTheme" />
+                <RadioButton
+                    android:text="@string/q4v4"
+                    style="@style/radioTheme" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/questionTheme"
+                android:text="@string/question5" />
+            <EditText
+                android:id="@+id/questionFive"
+                style="@style/editTextTheme" />
+        </LinearLayout>
+
+        <Button
+            android:layout_margin="10dp"
+            android:text="@string/submitButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="submitAnswers" />
+    </LinearLayout>
+</ScrollView>

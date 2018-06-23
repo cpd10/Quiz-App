@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Project_3</string>
+
+    <string name="answer1">1010</string>
+    <string name="answer2">1110</string>
+    <string name="answer4">15</string>
+    <string name="answer5">100000</string>
+
+    <string name="question1">1. What is 10 in binary?</string>
+    <string name="q1v1">1010</string>
+    <string name="q1v2">1000</string>
+    <string name="q1v3">0001</string>
+    <string name="q1v4">1110</string>
+
+    <string name="question2">2. Convert 14 to binary</string>
+
+    <string name="question3">3. Select all that are greater than 10</string>
+    <string name="q3v1">1001</string>
+    <string name="q3v2">1101</string>
+    <string name="q3v3">1111</string>
+    <string name="q3v4">1011</string>
+
+    <string name="question4">4. What is 1111 in decimal?</string>
+    <string name="q4v1">15</string>
+    <string name="q4v2">10</string>
+    <string name="q4v3">2</string>
+    <string name="q4v4">46</string>
+
+    <string name="question5">5. What is 32 in binary?</string>
+
+    <string name="testScore">SCORE</string>
+    <string name="total">/5</string>
+    <string name="wrong">INCORRECT: </string>
+
+    <string name="submitButton">SUBMIT</string>
+    <string name="tryAgain">TRY AGAIN</string>
+</resources>
